@@ -12,3 +12,6 @@ docs/
 
 # ignore old
 old/
+
+# ignore generated logs
+logs/*.log
