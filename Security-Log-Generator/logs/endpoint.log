@@ -1,0 +1,2050 @@
+Date: 2026-03-30 12:59:47,715 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 9.6.2
+User: System
+Computer: KZUQBPXK93
+Date: 2026-03-30 12:59:47,915 
+Event Type: Malware Detected
+File Name: outside.avi.exe
+File Path: C:\Users\mark\decision\including\get\pressure\outside.avi.exe
+File Hash: e94bfe5a-de38-4231-9f11-d5bb335949c1
+Threat Name: ['Trojan.JS.Example']
+Action Taken: Deleted
+User: robin
+Computer: ZSHLUTPH97
+Date: 2026-03-30 12:59:48,046 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: alan
+Computer: TCSLAPOB79
+Date: 2026-03-30 12:59:48,225 
+Event Type: Malware Detected
+File Name: dxymwdrdzu.exe
+File Path: C:\Users\cassandra\someone\service\particularly\customer\dxymwdrdzu.exe
+File Hash: 17b94808-7f3e-4e45-a7c1-259df2ea7c64
+Threat Name: ['Ransomware.Win32.Example']
+Action Taken: Clean
+User: george
+Computer: XMRUSETM65
+Date: 2026-03-30 12:59:48,361 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: nathan
+Computer: SXTUXCDC29
+Date: 2026-03-30 12:59:48,485 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: marcus
+Computer: AURBQFDF37
+Date: 2026-03-30 12:59:48,585 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 9.9.9
+User: System
+Computer: VFVMSODQ42
+Date: 2026-03-30 12:59:48,781 
+Event Type: Malware Detected
+File Name: qyllorensl.exe
+File Path: C:\Users\melissa\course\fund\member\out\qyllorensl.exe
+File Hash: 5c223e74-9986-4265-a880-3d321898abf3
+Threat Name: ['Ransomware.Win32.Example']
+Action Taken: Clean
+User: rebecca
+Computer: IUTCNTMI25
+Date: 2026-03-30 12:59:48,909 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: george
+Computer: YVVLXDYW21
+Date: 2026-03-30 12:59:49,037 
+Event Type: Exception
+File/Process: taskmgr.exe
+Reason: Trusted Application
+User: anthony
+Computer: CZPZWMLO93
+Date: 2026-03-30 12:59:49,138 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 8.9.9
+User: System
+Computer: OUYMYUQE29
+Date: 2026-03-30 12:59:49,238 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 3.3.1
+User: System
+Computer: MUCQJLUD63
+Date: 2026-03-30 12:59:49,365 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: james
+Computer: AOCNHZMS49
+Date: 2026-03-30 12:59:49,505 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: dennis
+Computer: CAOWAGFW73
+Date: 2026-03-30 12:59:49,675 
+Event Type: Malware Detected
+File Name: kaiden_bot.exe
+File Path: C:\Users\daisy\eye\black\while\law\kaiden_bot.exe
+File Hash: 4cb78188-b55b-45b5-a84d-7a788dca1c72
+Threat Name: ['Exploit.Win32.Example']
+Action Taken: Report
+User: dustin
+Computer: TTMEYDJI36
+Date: 2026-03-30 12:59:49,798 
+Event Type: Real-time Protection Enabled
+User: john
+Computer: STGDQAYU86
+Date: 2026-03-30 12:59:49,923 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: tonya
+Computer: YGOREDZN48
+Date: 2026-03-30 12:59:50,050 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: laura
+Computer: OLASIQHH51
+Date: 2026-03-30 12:59:50,186 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: cody
+Computer: EDAODRVH47
+Date: 2026-03-30 12:59:50,328 
+Event Type: Real-time Protection Enabled
+User: leah
+Computer: FRWGMJRW84
+Date: 2026-03-30 12:59:50,429 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 2.3.5
+User: System
+Computer: JTHJNOSQ52
+Date: 2026-03-30 12:59:50,554 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: jessica
+Computer: EFOKWAHW59
+Date: 2026-03-30 12:59:50,654 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 3.1.4
+User: System
+Computer: IOZNROWZ51
+Date: 2026-03-30 12:59:50,780 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: susan
+Computer: JSEEYPHL31
+Date: 2026-03-30 12:59:50,881 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 0.4.3
+User: System
+Computer: FHQVXOXQ87
+Date: 2026-03-30 12:59:50,981 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 4.6.7
+User: System
+Computer: VQDYMUBG79
+Date: 2026-03-30 12:59:51,155 
+Event Type: Malware Detected
+File Name: uggnmvjyip.exe
+File Path: C:\Users\john\say\too\value\and\uggnmvjyip.exe
+File Hash: 59ae385a-0c1e-4c73-9921-48cfe0ca73da
+Threat Name: ['Virus.Win32.Example']
+Action Taken: Block
+User: derek
+Computer: DGMDQONR68
+Date: 2026-03-30 12:59:51,281 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: rebecca
+Computer: QOVSLZAR38
+Date: 2026-03-30 12:59:51,495 
+Event Type: Malware Detected
+File Name: none.wav.exe
+File Path: C:\Users\christopher\newspaper\live\play\smile\none.wav.exe
+File Hash: 6f83814f-dedb-46ea-b1c5-f2b082b5aad3
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Clean
+User: james
+Computer: BBWLCJHV27
+Date: 2026-03-30 12:59:51,620 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: scott
+Computer: ZIJVTQYY55
+Date: 2026-03-30 12:59:51,751 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: darrell
+Computer: JNUAEPGB79
+Date: 2026-03-30 12:59:51,851 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 8.7.0
+User: System
+Computer: QMRKNLAQ52
+Date: 2026-03-30 12:59:51,977 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 4
+User: michelle
+Computer: PIEZCAGV22
+Date: 2026-03-30 12:59:52,161 
+Event Type: Malware Detected
+File Name: services.exe
+File Path: C:\Users\vanessa\provide\share\movement\information\services.exe
+File Hash: 0ae8ae60-d1af-4a54-a690-edba54404a0d
+Threat Name: ['Spyware.Win32.Example']
+Action Taken: Deleted
+User: scott
+Computer: KSGWUKQG47
+Date: 2026-03-30 12:59:52,289 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: amanda
+Computer: CCTMMIFN15
+Date: 2026-03-30 12:59:52,416 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 1
+User: randall
+Computer: FVVMSNJL91
+Date: 2026-03-30 12:59:52,539 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: jennifer
+Computer: LUKCSVFO36
+Date: 2026-03-30 12:59:52,664 
+Event Type: Exception
+File/Process: crsss.exe
+Reason: Trusted Application
+User: mark
+Computer: OEMYXKDQ31
+Date: 2026-03-30 12:59:52,794 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: jeff
+Computer: ESMNYSXS65
+Date: 2026-03-30 12:59:52,925 
+Event Type: Scan Completed
+Scan Type: Real-time Scan
+Malware Found: 0
+User: ashley
+Computer: GIKLRFYC51
+Date: 2026-03-30 12:59:53,051 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: katherine
+Computer: UOWSUEGN69
+Date: 2026-03-30 12:59:53,187 
+Event Type: Scan Started
+Scan Type: Custom Scan
+User: clayton
+Computer: GIKSAKUY52
+Date: 2026-03-30 12:59:53,319 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: russell
+Computer: INYAJXQK53
+Date: 2026-03-30 12:59:53,419 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 9.1.5
+User: System
+Computer: NEBHABQB16
+Date: 2026-03-30 12:59:53,520 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 6.4.6
+User: System
+Computer: YDHBLJBB96
+Date: 2026-03-30 12:59:53,648 
+Event Type: Scan Started
+Scan Type: Custom Scan
+User: jeremiah
+Computer: JKXQMIBA98
+Date: 2026-03-30 12:59:53,748 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 3.7.3
+User: System
+Computer: WSFVYOLX58
+Date: 2026-03-30 12:59:53,878 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: walter
+Computer: OPVKFFKZ85
+Date: 2026-03-30 12:59:53,978 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 0.6.7
+User: System
+Computer: FNYXLGTN72
+Date: 2026-03-30 12:59:54,103 
+Event Type: Scan Started
+Scan Type: Custom Scan
+User: derrick
+Computer: KVOBGUXB24
+Date: 2026-03-30 12:59:54,288 
+Event Type: Malware Detected
+File Name: crsss.exe
+File Path: C:\Users\victoria\option\much\wall\painting\crsss.exe
+File Hash: cfd6378f-f906-419e-a827-1eb89f2db47f
+Threat Name: ['PUP.Win32.Example']
+Action Taken: Allow
+User: jason
+Computer: ZZBRZFTP82
+Date: 2026-03-30 12:59:54,419 
+Event Type: Real-time Protection Enabled
+User: ryan
+Computer: UJMJDFPL51
+Date: 2026-03-30 12:59:54,545 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: andrew
+Computer: ZNCFZKYN55
+Date: 2026-03-30 12:59:54,677 
+Event Type: Real-time Protection Enabled
+User: jennifer
+Computer: JXVZYJJO86
+Date: 2026-03-30 12:59:54,778 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 0.8.2
+User: System
+Computer: OMBXPYLP35
+Date: 2026-03-30 12:59:54,904 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: vanessa
+Computer: VYSMNKOA77
+Date: 2026-03-30 12:59:55,028 
+Event Type: Scan Started
+Scan Type: Custom Scan
+User: robert
+Computer: XXUDKDCY14
+Date: 2026-03-30 12:59:55,157 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: stephanie
+Computer: YNLSWULY93
+Date: 2026-03-30 12:59:55,333 
+Event Type: Malware Detected
+File Name: msiexec
+File Path: C:\Users\kathryn\citizen\concern\season\technology\msiexec
+File Hash: 8d6aac57-1a54-40b8-b98f-2f737b03c4c5
+Threat Name: ['Rootkit.Win32.Example']
+Action Taken: Quarantine
+User: tyler
+Computer: LYVXFIPR94
+Date: 2026-03-30 12:59:55,504 
+Event Type: Malware Detected
+File Name: trjn_hrse.exe
+File Path: C:\Users\lori\interview\body\wait\up\trjn_hrse.exe
+File Hash: 0be7a5aa-e037-4210-a7a1-e4a612ea162c
+Threat Name: ['PUP.Win32.Example']
+Action Taken: Quarantine
+User: lisa
+Computer: YYQZUZKA48
+Date: 2026-03-30 12:59:55,630 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 0
+User: david
+Computer: DERPWNXI95
+Date: 2026-03-30 12:59:55,756 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: jonathan
+Computer: JXPFXNNZ77
+Date: 2026-03-30 12:59:55,856 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 7.4.6
+User: System
+Computer: HHJVQGOB91
+Date: 2026-03-30 12:59:55,985 
+Event Type: Exception
+File/Process: crsss.exe
+Reason: Administrator Override
+User: jessica
+Computer: LAENEEMY19
+Date: 2026-03-30 12:59:56,181 
+Event Type: Malware Detected
+File Name: lxepqiuhcw.exe
+File Path: C:\Users\juan\them\onto\last\nearly\lxepqiuhcw.exe
+File Hash: c3323334-f68d-49de-ac32-e0865bcff16a
+Threat Name: ['Backdoor.Win32.Example']
+Action Taken: Quarantine
+User: cassandra
+Computer: AXBAILJW48
+Date: 2026-03-30 12:59:56,365 
+Event Type: Malware Detected
+File Name: bbpnzyergl.exe
+File Path: C:\Users\richard\rise\difficult\account\represent\bbpnzyergl.exe
+File Hash: 6d74642a-0760-4360-acff-0054e0a079bd
+Threat Name: ['Backdoor.Win32.Example']
+Action Taken: Report
+User: jacob
+Computer: UKQNAJOL24
+Date: 2026-03-30 12:59:56,497 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: ryan
+Computer: JLRNKTQM38
+Date: 2026-03-30 12:59:56,622 
+Event Type: Real-time Protection Disabled
+Reason: Automatic
+User: jennifer
+Computer: OSMXJFJF79
+Date: 2026-03-30 12:59:56,747 
+Event Type: Exception
+File/Process: explorer.exe
+Reason: Trusted Application
+User: douglas
+Computer: ZTPSAPGC62
+Date: 2026-03-30 12:59:56,872 
+Event Type: Real-time Protection Disabled
+Reason: Scheduled
+User: david
+Computer: NLUFAAKO14
+Date: 2026-03-30 12:59:57,046 
+Event Type: Malware Detected
+File Name: wininit.exe
+File Path: C:\Users\michele\easy\call\fear\different\wininit.exe
+File Hash: 0e3f9439-809a-40b8-adc2-be81380e5244
+Threat Name: ['Ransomware.Win32.Example']
+Action Taken: Restored
+User: brandy
+Computer: ASCGMWKP89
+Date: 2026-03-30 12:59:57,244 
+Event Type: Malware Detected
+File Name: see.jpg.exe
+File Path: C:\Users\ashley\space\air\half\open\see.jpg.exe
+File Hash: 977dd458-c58c-4753-ad76-6cf0d546f8cf
+Threat Name: ['Exploit.Win32.Example']
+Action Taken: Clean
+User: nancy
+Computer: AVEUCJWM42
+Date: 2026-03-30 12:59:57,372 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: cindy
+Computer: JNQOYBJI55
+Date: 2026-03-30 12:59:57,544 
+Event Type: Malware Detected
+File Name: wljgpbvjwz.exe
+File Path: C:\Users\ricardo\power\financial\remain\practice\wljgpbvjwz.exe
+File Hash: e720d735-4344-4d21-b698-99ea8fc5ffc7
+Threat Name: ['Exploit.Win32.Example']
+Action Taken: Clean
+User: heather
+Computer: QRLWLGSO76
+Date: 2026-03-30 12:59:57,673 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: javier
+Computer: TKBTWLDR55
+Date: 2026-03-30 12:59:57,797 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: christy
+Computer: BKHLYSQP84
+Date: 2026-03-30 12:59:57,923 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: paul
+Computer: FJGXHNNQ25
+Date: 2026-03-30 12:59:58,024 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 9.9.3
+User: System
+Computer: QEALNUEV51
+Date: 2026-03-30 12:59:58,157 
+Event Type: Real-time Protection Enabled
+User: bruce
+Computer: SHLLXDOK19
+Date: 2026-03-30 12:59:58,280 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: brandon
+Computer: EKMJPCJV53
+Date: 2026-03-30 12:59:58,452 
+Event Type: Malware Detected
+File Name: tjapkwmopf.exe
+File Path: C:\Users\peter\house\tend\nor\generation\tjapkwmopf.exe
+File Hash: 281b1a29-3ec1-4d00-821b-fc27674c3cbc
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Quarantine
+User: nathan
+Computer: CUXJRRFD36
+Date: 2026-03-30 12:59:58,578 
+Event Type: Scan Completed
+Scan Type: Real-time Scan
+Malware Found: 0
+User: monica
+Computer: PIKHHSHG62
+Date: 2026-03-30 12:59:58,679 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 8.6.5
+User: System
+Computer: ZJLGPIJH18
+Date: 2026-03-30 12:59:58,780 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 3.3.5
+User: System
+Computer: LHXZKCDZ24
+Date: 2026-03-30 12:59:58,907 
+Event Type: Exception
+File/Process: crsss.exe
+Reason: Trusted Application
+User: marvin
+Computer: SDPAOFVN98
+Date: 2026-03-30 12:59:59,008 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 2.8.8
+User: System
+Computer: TBXNWXFC37
+Date: 2026-03-30 12:59:59,132 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: matthew
+Computer: CLLPXHUM67
+Date: 2026-03-30 12:59:59,336 
+Event Type: Malware Detected
+File Name: less.bmp.exe
+File Path: C:\Users\deanna\single\executive\role\style\less.bmp.exe
+File Hash: cbc3ed3d-52a6-464d-961f-0950eedae9a5
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Deleted
+User: sonya
+Computer: XOZJKKDU25
+Date: 2026-03-30 12:59:59,437 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 2.4.1
+User: System
+Computer: XDDZXDVE86
+Date: 2026-03-30 12:59:59,538 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 9.7.8
+User: System
+Computer: OSVVVDZB21
+Date: 2026-03-30 12:59:59,638 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 5.8.5
+User: System
+Computer: RLWZSGVR73
+Date: 2026-03-30 12:59:59,739 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 4.1.3
+User: System
+Computer: PCADEOVY39
+Date: 2026-03-30 12:59:59,960 
+Event Type: Malware Detected
+File Name: outside.bmp.exe
+File Path: C:\Users\mark\very\lead\government\subject\outside.bmp.exe
+File Hash: 7ed5af67-d8b9-4495-bf2a-4c7c8b0bddc9
+Threat Name: ['Exploit.Win32.Example']
+Action Taken: Quarantine
+User: sarah
+Computer: BJHAGOIQ99
+Date: 2026-03-30 13:00:00,094 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: angela
+Computer: VHNQUWTD88
+Date: 2026-03-30 13:00:00,230 
+Event Type: Scan Started
+Scan Type: Custom Scan
+User: amber
+Computer: ZAIWXOWV92
+Date: 2026-03-30 13:00:00,330 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 4.5.1
+User: System
+Computer: JIBOHIXZ16
+Date: 2026-03-30 13:00:00,464 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 0
+User: kimberly
+Computer: QSCVNNKF15
+Date: 2026-03-30 13:00:00,647 
+Event Type: Malware Detected
+File Name: oiigjtaznc.exe
+File Path: C:\Users\tiffany\miss\door\at\military\oiigjtaznc.exe
+File Hash: 0ad81208-9968-48d6-b814-701e80487e28
+Threat Name: ['PUP.Win32.Example']
+Action Taken: Deleted
+User: eugene
+Computer: FXBEJVGZ89
+Date: 2026-03-30 13:00:00,776 
+Event Type: Scan Started
+Scan Type: Custom Scan
+User: elizabeth
+Computer: WTQVITGC58
+Date: 2026-03-30 13:00:00,906 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: katherine
+Computer: KORSBBTR49
+Date: 2026-03-30 13:00:29,647 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 4.8.9
+User: System
+Computer: CBEYRJBG56
+Date: 2026-03-30 13:00:29,771 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: natasha
+Computer: FNXJCWZP48
+Date: 2026-03-30 13:00:29,901 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 7
+User: james
+Computer: BLADNREG71
+Date: 2026-03-30 13:00:30,029 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: richard
+Computer: GAMXDFAO68
+Date: 2026-03-30 13:00:30,160 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: elijah
+Computer: GNVPZOEP65
+Date: 2026-03-30 13:00:30,261 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 1.5.4
+User: System
+Computer: IRUCRTTO72
+Date: 2026-03-30 13:00:30,399 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: nancy
+Computer: RIWENXQG58
+Date: 2026-03-30 13:00:30,522 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: ann
+Computer: JDGAOMHR84
+Date: 2026-03-30 13:00:30,675 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: michael
+Computer: MWMOULDV35
+Date: 2026-03-30 13:00:30,776 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 0.0.5
+User: System
+Computer: OGIEPFQJ42
+Date: 2026-03-30 13:00:30,899 
+Event Type: Scan Completed
+Scan Type: Boot-time Scan
+Malware Found: 0
+User: todd
+Computer: IPGPGSHX74
+Date: 2026-03-30 13:00:31,028 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: jennifer
+Computer: EHWWUXSR54
+Date: 2026-03-30 13:00:31,166 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 0
+User: justin
+Computer: OHKAADFX11
+Date: 2026-03-30 13:00:31,290 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: clifford
+Computer: PFGMUPYG82
+Date: 2026-03-30 13:00:31,390 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 8.0.1
+User: System
+Computer: TRACEPYI99
+Date: 2026-03-30 13:00:31,491 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 6.5.8
+User: System
+Computer: QUYZBASR42
+Date: 2026-03-30 13:00:31,620 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: christopher
+Computer: YGSLDPSI57
+Date: 2026-03-30 13:00:31,794 
+Event Type: Malware Detected
+File Name: trjn_hrse.exe
+File Path: C:\Users\erica\try\keep\sure\table\trjn_hrse.exe
+File Hash: d2849418-e88f-4769-b591-b7624d5ea986
+Threat Name: ['Exploit.Win32.Example']
+Action Taken: Clean
+User: benjamin
+Computer: XVTSSGRW58
+Date: 2026-03-30 13:00:31,918 
+Event Type: Exception
+File/Process: explorer.exe
+Reason: Trusted Publisher
+User: shaun
+Computer: BXVJHDRQ89
+Date: 2026-03-30 13:00:32,089 
+Event Type: Malware Detected
+File Name: wininit.exe
+File Path: C:\Users\kristin\ground\result\paper\morning\wininit.exe
+File Hash: 4cf78fd6-3ff7-45d7-bb5e-a89806b6230c
+Threat Name: ['Virus.Win32.Example']
+Action Taken: Restored
+User: joseph
+Computer: TNXFILPC84
+Date: 2026-03-30 13:00:32,215 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: darren
+Computer: RMPMUPJS46
+Date: 2026-03-30 13:00:32,338 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: marvin
+Computer: OXOJUTYP19
+Date: 2026-03-30 13:00:32,439 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 1.6.5
+User: System
+Computer: WSDGLPUZ15
+Date: 2026-03-30 13:00:32,564 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: kelly
+Computer: TYDRLJVD85
+Date: 2026-03-30 13:00:32,665 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 8.9.6
+User: System
+Computer: AUGQMJRF25
+Date: 2026-03-30 13:00:32,765 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 8.9.5
+User: System
+Computer: RWEZQDTP48
+Date: 2026-03-30 13:00:32,866 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 2.0.2
+User: System
+Computer: MMANDDHO23
+Date: 2026-03-30 13:00:32,967 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 9.0.1
+User: System
+Computer: EZDJSHZN16
+Date: 2026-03-30 13:00:33,099 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 0
+User: robert
+Computer: JUYPNVWA58
+Date: 2026-03-30 13:00:33,200 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 3.9.0
+User: System
+Computer: CZZISBDR68
+Date: 2026-03-30 13:00:33,329 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: morgan
+Computer: GWXKYBKX19
+Date: 2026-03-30 13:00:33,430 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 4.2.8
+User: System
+Computer: RFUJXXTA29
+Date: 2026-03-30 13:00:33,564 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: michael
+Computer: UOSSGUYP96
+Date: 2026-03-30 13:00:33,742 
+Event Type: Malware Detected
+File Name: leepicvirus.exe
+File Path: C:\Users\raven\radio\can\charge\mouth\leepicvirus.exe
+File Hash: 3aca1e4d-e75d-4074-b20a-7bf0445d77c1
+Threat Name: ['Spyware.Win32.Example']
+Action Taken: Deleted
+User: peter
+Computer: PWYCAJEA33
+Date: 2026-03-30 13:00:33,874 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: olivia
+Computer: NXSUGLDT63
+Date: 2026-03-30 13:00:33,975 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 7.7.7
+User: System
+Computer: JDNGMXXV23
+Date: 2026-03-30 13:00:34,100 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: christine
+Computer: QVMPQRGZ23
+Date: 2026-03-30 13:00:34,201 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 5.1.8
+User: System
+Computer: NQCZCLON29
+Date: 2026-03-30 13:00:34,334 
+Event Type: Exception
+File/Process: services.exe
+Reason: Trusted Publisher
+User: madison
+Computer: HMXUGOQG33
+Date: 2026-03-30 13:00:34,434 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 6.5.4
+User: System
+Computer: PUWWISOO43
+Date: 2026-03-30 13:00:34,637 
+Event Type: Malware Detected
+File Name: his.jpeg.exe
+File Path: C:\Users\laura\leave\grow\number\young\his.jpeg.exe
+File Hash: 6269ea2b-c808-43ba-944f-45ca66cd89ba
+Threat Name: ['Trojan.JS.Example']
+Action Taken: Clean
+User: jennifer
+Computer: OCVULWTW19
+Date: 2026-03-30 13:00:34,764 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: rachel
+Computer: RLPGYHMQ71
+Date: 2026-03-30 13:00:34,895 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: raven
+Computer: ZJPBYIEV71
+Date: 2026-03-30 13:00:35,019 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 6
+User: daniel
+Computer: SGDPPQOL22
+Date: 2026-03-30 13:00:35,143 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: jennifer
+Computer: NIOFORBI89
+Date: 2026-03-30 13:00:35,244 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 5.7.8
+User: System
+Computer: TILSPAFK12
+Date: 2026-03-30 13:00:35,371 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: richard
+Computer: DQDIZAME58
+Date: 2026-03-30 13:00:35,498 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: johnathan
+Computer: JRUUYYUB96
+Date: 2026-03-30 13:00:35,622 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: jennifer
+Computer: KBTEDIVZ66
+Date: 2026-03-30 13:00:35,722 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 0.9.9
+User: System
+Computer: QJPUUCXW26
+Date: 2026-03-30 13:00:35,906 
+Event Type: Malware Detected
+File Name: qnhmmxsqpj.exe
+File Path: C:\Users\lisa\past\shoulder\picture\tonight\qnhmmxsqpj.exe
+File Hash: 54322f0a-adc6-4108-905a-13cf80b266c8
+Threat Name: ['Ransomware.Win32.Example']
+Action Taken: Allow
+User: christina
+Computer: IXLDZTDD78
+Date: 2026-03-30 13:00:36,007 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 7.1.4
+User: System
+Computer: GOTNCWHY87
+Date: 2026-03-30 13:00:36,107 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 6.1.3
+User: System
+Computer: NMWUPOXB43
+Date: 2026-03-30 13:00:36,243 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: jamie
+Computer: YPWFQSTA83
+Date: 2026-03-30 13:00:36,376 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: debra
+Computer: VIGTRFIE55
+Date: 2026-03-30 13:00:36,477 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 6.0.6
+User: System
+Computer: ILAWPYKB92
+Date: 2026-03-30 13:00:36,601 
+Event Type: Scan Completed
+Scan Type: Boot-time Scan
+Malware Found: 0
+User: chris
+Computer: QIRYUBGB14
+Date: 2026-03-30 13:00:36,789 
+Event Type: Malware Detected
+File Name: leepicvirus.exe
+File Path: C:\Users\jennifer\science\couple\return\since\leepicvirus.exe
+File Hash: 0f914337-47b4-4576-a535-d16443f4c250
+Threat Name: ['Rootkit.Win32.Example']
+Action Taken: Quarantine
+User: destiny
+Computer: RZZHUJSZ23
+Date: 2026-03-30 13:00:36,890 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 8.8.8
+User: System
+Computer: DWCYOWQI42
+Date: 2026-03-30 13:00:37,016 
+Event Type: Scan Completed
+Scan Type: Real-time Scan
+Malware Found: 2
+User: lori
+Computer: UPLNJGVB49
+Date: 2026-03-30 13:00:37,116 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 5.1.8
+User: System
+Computer: CTQZMFAK96
+Date: 2026-03-30 13:00:37,249 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 2
+User: paul
+Computer: SAVHKJTS42
+Date: 2026-03-30 13:00:37,372 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: madeline
+Computer: OYKGCWVC79
+Date: 2026-03-30 13:00:37,502 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: ashley
+Computer: EZDDXFZT94
+Date: 2026-03-30 13:00:37,626 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: william
+Computer: CJQIQESK25
+Date: 2026-03-30 13:00:37,749 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: jennifer
+Computer: KBHXVZNN18
+Date: 2026-03-30 13:00:37,850 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 6.5.0
+User: System
+Computer: FVIWMTRK39
+Date: 2026-03-30 13:00:37,951 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 0.7.4
+User: System
+Computer: UVCQYNXK63
+Date: 2026-03-30 13:00:38,081 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: steven
+Computer: RGEWKOFM31
+Date: 2026-03-30 13:00:38,205 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: justin
+Computer: YZWKMDBL64
+Date: 2026-03-30 13:00:38,305 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 1.3.5
+User: System
+Computer: IVIERTOG57
+Date: 2026-03-30 13:00:38,484 
+Event Type: Malware Detected
+File Name: jbnzkufqnu.exe
+File Path: C:\Users\april\relationship\degree\language\third\jbnzkufqnu.exe
+File Hash: fe39f806-6a69-453d-93f6-121151983e6d
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Clean
+User: regina
+Computer: KBQZFJBD81
+Date: 2026-03-30 13:00:38,618 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: carl
+Computer: RCSHYNVV56
+Date: 2026-03-30 13:00:38,808 
+Event Type: Malware Detected
+File Name: xuqdcwaktu.exe
+File Path: C:\Users\timothy\body\bar\art\none\xuqdcwaktu.exe
+File Hash: 7c4ca915-b7d3-4713-9b79-f9592006453e
+Threat Name: ['PUP.Win32.Example']
+Action Taken: Quarantine
+User: matthew
+Computer: FNMYANCO31
+Date: 2026-03-30 13:00:38,935 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: kimberly
+Computer: GAXAZTHO35
+Date: 2026-03-30 13:00:39,113 
+Event Type: Malware Detected
+File Name: password_stealer.exe
+File Path: C:\Users\kelsey\central\allow\in\wind\password_stealer.exe
+File Hash: 2ad53f95-d1a4-48d4-bbfe-970ee0a5de1a
+Threat Name: ['Trojan.JS.Example']
+Action Taken: Quarantine
+User: michael
+Computer: ZXFHBHHV61
+Date: 2026-03-30 13:00:39,283 
+Event Type: Malware Detected
+File Name: wininit.exe
+File Path: C:\Users\joseph\structure\attention\list\will\wininit.exe
+File Hash: 7cc69806-a769-4cd1-b06c-6ef8bdf1062f
+Threat Name: ['PUP.Win32.Example']
+Action Taken: Quarantine
+User: eric
+Computer: JFMHFLYH77
+Date: 2026-03-30 13:00:39,411 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: robert
+Computer: AGQGRIVC94
+Date: 2026-03-30 13:00:39,511 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 2.3.0
+User: System
+Computer: APIJPKUP58
+Date: 2026-03-30 13:00:39,612 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 7.7.6
+User: System
+Computer: HFNESUYB41
+Date: 2026-03-30 13:00:39,788 
+Event Type: Malware Detected
+File Name: lsass.exe
+File Path: C:\Users\shelly\trouble\look\ahead\responsibility\lsass.exe
+File Hash: 594ac4ad-82c7-491e-81f6-2abc091a84d0
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Allow
+User: ariel
+Computer: SCUQFJIS16
+Date: 2026-03-30 13:00:39,922 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: roger
+Computer: BEURKUZZ99
+Date: 2026-03-30 13:00:40,046 
+Event Type: Real-time Protection Enabled
+User: kathryn
+Computer: ANFBNTFK32
+Date: 2026-03-30 13:00:40,174 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: theodore
+Computer: YDQBXFSY82
+Date: 2026-03-30 13:00:40,308 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: robert
+Computer: FIEXECDG34
+Date: 2026-03-30 13:00:40,494 
+Event Type: Malware Detected
+File Name: ransom.exe
+File Path: C:\Users\morgan\suffer\agent\talk\raise\ransom.exe
+File Hash: c9b2863d-edb7-41cf-a448-b77098a5f785
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Quarantine
+User: gregory
+Computer: BJYZWJOV73
+Date: 2026-03-30 13:00:40,620 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 0
+User: troy
+Computer: RVMXGPYO73
+Date: 2026-03-30 13:00:40,766 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: christopher
+Computer: HXWTRTUH56
+Date: 2026-03-30 13:00:40,892 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: andrew
+Computer: STGLERQH61
+Date: 2026-03-30 13:00:41,019 
+Event Type: Scan Completed
+Scan Type: Real-time Scan
+Malware Found: 0
+User: pamela
+Computer: PIGHIMRW26
+Date: 2026-03-30 13:00:41,154 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: kayla
+Computer: PWENKERF21
+Date: 2026-03-30 13:00:41,255 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 9.4.4
+User: System
+Computer: JTLXNEUL25
+Date: 2026-03-30 13:00:41,442 
+Event Type: Malware Detected
+File Name: flcjbenokr.exe
+File Path: C:\Users\donald\security\each\back\value\flcjbenokr.exe
+File Hash: 7a00c79a-e537-4808-8f1f-1a18a90ba9d7
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Allow
+User: hannah
+Computer: UBNYKUDA25
+Date: 2026-03-30 13:00:41,568 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: christie
+Computer: TYPLAQKQ49
+Date: 2026-03-30 13:00:41,695 
+Event Type: Real-time Protection Enabled
+User: dillon
+Computer: CNQKSXPU83
+Date: 2026-03-30 13:00:41,827 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: meghan
+Computer: YQJTZCEQ64
+Date: 2026-03-30 13:00:41,929 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 7.7.4
+User: System
+Computer: UVNWCRSD52
+Date: 2026-03-30 13:00:42,149 
+Event Type: Malware Detected
+File Name: simple.mp3.exe
+File Path: C:\Users\janet\may\sound\control\point\simple.mp3.exe
+File Hash: b34f47ae-be7d-418d-860a-0cb5be46e2b5
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Quarantine
+User: steven
+Computer: UJEEBAWK56
+Date: 2026-03-30 13:00:42,276 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: nancy
+Computer: FTGQBAJH53
+Date: 2026-03-30 13:00:42,402 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: grant
+Computer: UYXKVHDA96
+Date: 2026-03-30 13:01:11,292 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: cory
+Computer: TVHUEHVW68
+Date: 2026-03-30 13:01:11,417 
+Event Type: Real-time Protection Disabled
+Reason: Automatic
+User: zachary
+Computer: NJKGEGNU54
+Date: 2026-03-30 13:01:11,518 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 0.3.0
+User: System
+Computer: BYIGYQWG27
+Date: 2026-03-30 13:01:11,629 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 6.2.8
+User: System
+Computer: HHGQEQKF37
+Date: 2026-03-30 13:01:11,756 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: julie
+Computer: CBKHTYAX76
+Date: 2026-03-30 13:01:11,888 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: anthony
+Computer: IDFQGDKX99
+Date: 2026-03-30 13:01:12,014 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: marissa
+Computer: DXYUSELC59
+Date: 2026-03-30 13:01:12,218 
+Event Type: Malware Detected
+File Name: some.mov.exe
+File Path: C:\Users\edwin\yes\thank\go\upon\some.mov.exe
+File Hash: f9a9ad4e-cd63-4595-ab10-6ac4db6b32c4
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Quarantine
+User: wendy
+Computer: TRMAXUAZ59
+Date: 2026-03-30 13:01:12,344 
+Event Type: Exception
+File/Process: services.exe
+Reason: Trusted Application
+User: cheyenne
+Computer: YNJGLDAO65
+Date: 2026-03-30 13:01:12,444 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 7.7.2
+User: System
+Computer: KVNWXREV43
+Date: 2026-03-30 13:01:12,545 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 3.7.3
+User: System
+Computer: MJAHQXJW78
+Date: 2026-03-30 13:01:12,646 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 3.2.9
+User: System
+Computer: BVNMJZLE28
+Date: 2026-03-30 13:01:12,773 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: cynthia
+Computer: VCOYDXVZ57
+Date: 2026-03-30 13:01:12,906 
+Event Type: Exception
+File/Process: lsass.exe
+Reason: Whitelisted
+User: lauren
+Computer: BKDYQBFT73
+Date: 2026-03-30 13:01:13,032 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: brandon
+Computer: EIROSDTX78
+Date: 2026-03-30 13:01:13,154 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: mariah
+Computer: AFHFEVID89
+Date: 2026-03-30 13:01:13,289 
+Event Type: Scan Started
+Scan Type: Custom Scan
+User: joseph
+Computer: EADGUHKZ34
+Date: 2026-03-30 13:01:13,390 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 3.1.0
+User: System
+Computer: JKPZLLFB58
+Date: 2026-03-30 13:01:13,491 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 7.9.2
+User: System
+Computer: TAXDGGUC91
+Date: 2026-03-30 13:01:13,620 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: katherine
+Computer: TPBBDMVL44
+Date: 2026-03-30 13:01:13,754 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 8
+User: kevin
+Computer: IBCSBHRH94
+Date: 2026-03-30 13:01:13,855 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 0.6.0
+User: System
+Computer: DJKSWTZR61
+Date: 2026-03-30 13:01:14,077 
+Event Type: Malware Detected
+File Name: skin.pdf.exe
+File Path: C:\Users\denise\again\defense\different\certainly\skin.pdf.exe
+File Hash: dc42baf4-0b9e-4a61-b36c-d8e107521b67
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Quarantine
+User: john
+Computer: WFAQDLZY74
+Date: 2026-03-30 13:01:14,248 
+Event Type: Malware Detected
+File Name: lhtrshvxlw.exe
+File Path: C:\Users\william\speak\investment\daughter\discover\lhtrshvxlw.exe
+File Hash: ed21493c-1a0b-4411-9284-8281037f3cba
+Threat Name: ['Rootkit.Win32.Example']
+Action Taken: Quarantine
+User: julia
+Computer: VVTZEHKT43
+Date: 2026-03-30 13:01:14,348 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 7.7.5
+User: System
+Computer: EWFTHHNQ54
+Date: 2026-03-30 13:01:14,473 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: megan
+Computer: DRQLVEBQ64
+Date: 2026-03-30 13:01:14,665 
+Event Type: Malware Detected
+File Name: what.tiff.exe
+File Path: C:\Users\nicholas\own\effort\who\bar\what.tiff.exe
+File Hash: a0f21187-f1e3-489f-a1f3-2b4cae1e9e45
+Threat Name: ['Virus.Win32.Example']
+Action Taken: Quarantine
+User: michael
+Computer: WBXOPJHJ75
+Date: 2026-03-30 13:01:14,766 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 0.7.6
+User: System
+Computer: NPHZXDLC19
+Date: 2026-03-30 13:01:14,891 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: richard
+Computer: KOHHXIEI13
+Date: 2026-03-30 13:01:15,023 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: sydney
+Computer: RTQYNXWG28
+Date: 2026-03-30 13:01:15,197 
+Event Type: Malware Detected
+File Name: taskmgr.exe
+File Path: C:\Users\catherine\cause\cost\story\about\taskmgr.exe
+File Hash: 4b7cea3a-85b0-4d31-9c3c-63d625729661
+Threat Name: ['Trojan.JS.Example']
+Action Taken: Quarantine
+User: john
+Computer: WLCNFYOE49
+Date: 2026-03-30 13:01:15,391 
+Event Type: Malware Detected
+File Name: doom.exe
+File Path: C:\Users\kevin\visit\my\ago\its\doom.exe
+File Hash: 5a68a57b-ba63-49b8-8fa1-fac3abf8d62a
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Quarantine
+User: alexander
+Computer: XOGWLYQX57
+Date: 2026-03-30 13:01:15,516 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: jonathan
+Computer: YZZKZOAF24
+Date: 2026-03-30 13:01:15,654 
+Event Type: Real-time Protection Enabled
+User: steven
+Computer: FAOLEJAR92
+Date: 2026-03-30 13:01:18,009 
+Event Type: Malware Detected
+File Name: ufwqsgcdzd.exe
+File Path: C:\Users\bonnie\explain\thus\according\will\ufwqsgcdzd.exe
+File Hash: 9c60c75f-8d52-464b-ac17-293ffc744324
+Threat Name: ['Ransomware.Win32.Example']
+Action Taken: Quarantine
+User: heather
+Computer: NSVVFHRW24
+Date: 2026-03-30 13:01:18,146 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: christopher
+Computer: PVEZUSOU41
+Date: 2026-03-30 13:01:18,248 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 6.9.2
+User: System
+Computer: BGQCKNRY81
+Date: 2026-03-30 13:01:18,377 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: patricia
+Computer: TTUFFRTV63
+Date: 2026-03-30 13:01:18,505 
+Event Type: Real-time Protection Disabled
+Reason: Manual
+User: brooke
+Computer: YFQWQSKL22
+Date: 2026-03-30 13:01:18,606 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 4.0.7
+User: System
+Computer: NOJGOVII34
+Date: 2026-03-30 13:01:18,734 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: theresa
+Computer: NAXJOUPA51
+Date: 2026-03-30 13:01:18,867 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: jacob
+Computer: UAZZKTOS46
+Date: 2026-03-30 13:01:18,995 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: jeffery
+Computer: LEXWSFZQ88
+Date: 2026-03-30 13:01:19,192 
+Event Type: Malware Detected
+File Name: ransom.exe
+File Path: C:\Users\erin\rather\serve\field\move\ransom.exe
+File Hash: 9c9309ab-7899-4a5e-988e-b96cb6f58764
+Threat Name: ['Trojan.JS.Example']
+Action Taken: Clean
+User: jonathan
+Computer: ADBWVDKG55
+Date: 2026-03-30 13:01:19,294 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 8.3.1
+User: System
+Computer: TCJOYFWM48
+Date: 2026-03-30 13:01:19,395 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 2.9.0
+User: System
+Computer: NZZEIAOV97
+Date: 2026-03-30 13:01:19,496 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 9.2.9
+User: System
+Computer: XLMUWPYS41
+Date: 2026-03-30 13:01:19,625 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: sandra
+Computer: PXRYWVTL19
+Date: 2026-03-30 13:01:19,756 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 3
+User: phillip
+Computer: MPGGEBCE25
+Date: 2026-03-30 13:01:19,858 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 0.7.4
+User: System
+Computer: KZIYHSUV66
+Date: 2026-03-30 13:01:20,000 
+Event Type: Scan Started
+Scan Type: Real-time Scan
+User: alan
+Computer: RTRAQBPW92
+Date: 2026-03-30 13:01:20,102 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 5.1.0
+User: System
+Computer: GTGBBKWZ42
+Date: 2026-03-30 13:01:20,365 
+Event Type: Malware Detected
+File Name: rock.mp3.exe
+File Path: C:\Users\teresa\look\class\rate\order\rock.mp3.exe
+File Hash: a0254102-d54f-4627-b9b1-82d3fcbcaf69
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Restored
+User: steve
+Computer: BEKMYPKA53
+Date: 2026-03-30 13:01:20,492 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: sarah
+Computer: TQKYUENA89
+Date: 2026-03-30 13:01:20,674 
+Event Type: Malware Detected
+File Name: services.exe
+File Path: C:\Users\brenda\check\recent\or\already\services.exe
+File Hash: ebc5a1d7-c4da-442d-bb0d-1c89bc3a43de
+Threat Name: ['Spyware.Win32.Example']
+Action Taken: Clean
+User: nancy
+Computer: HCCHNCBR99
+Date: 2026-03-30 13:01:20,807 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: carl
+Computer: HCREJIDE39
+Date: 2026-03-30 13:01:20,938 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: ann
+Computer: NNCYWJDF51
+Date: 2026-03-30 13:01:21,039 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 3.0.6
+User: System
+Computer: ABDOOJWF77
+Date: 2026-03-30 13:01:21,141 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 0.9.6
+User: System
+Computer: CPULXQFN12
+Date: 2026-03-30 13:01:21,277 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: michael
+Computer: QACAIBIS64
+Date: 2026-03-30 13:01:21,406 
+Event Type: Real-time Protection Disabled
+Reason: Automatic
+User: lori
+Computer: AUDXGJTP36
+Date: 2026-03-30 13:01:21,531 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: ashley
+Computer: KFVXGCFQ11
+Date: 2026-03-30 13:01:21,632 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 7.4.6
+User: System
+Computer: IYQTZPIV66
+Date: 2026-03-30 13:01:21,733 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 2.8.6
+User: System
+Computer: JYMMUVUV45
+Date: 2026-03-30 13:01:21,860 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 7
+User: zachary
+Computer: KNCJRCQD77
+Date: 2026-03-30 13:01:21,961 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 8.2.3
+User: System
+Computer: QQGMIUZS23
+Date: 2026-03-30 13:01:22,086 
+Event Type: Real-time Protection Enabled
+User: jason
+Computer: IBFSWUVO36
+Date: 2026-03-30 13:01:22,214 
+Event Type: Exception
+File/Process: explorer.exe
+Reason: Trusted Application
+User: carolyn
+Computer: PQOPZSKA48
+Date: 2026-03-30 13:01:22,440 
+Event Type: Malware Detected
+File Name: modern.js.exe
+File Path: C:\Users\melissa\activity\treatment\involve\alone\modern.js.exe
+File Hash: 6048751c-a801-40c4-8a7c-e3e40154a4d7
+Threat Name: ['Exploit.Win32.Example']
+Action Taken: Quarantine
+User: emily
+Computer: IHOJOBZT66
+Date: 2026-03-30 13:01:22,541 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 8.1.7
+User: System
+Computer: IKBWHHNL56
+Date: 2026-03-30 13:01:22,746 
+Event Type: Malware Detected
+File Name: to.wav.exe
+File Path: C:\Users\brad\wait\wrong\morning\read\to.wav.exe
+File Hash: 00ef35b0-16b2-4122-9a0a-dffe7e8628b7
+Threat Name: ['Rootkit.Win32.Example']
+Action Taken: Quarantine
+User: priscilla
+Computer: BKLUPUQV71
+Date: 2026-03-30 13:01:22,873 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: michael
+Computer: KZDYNDVK27
+Date: 2026-03-30 13:01:22,999 
+Event Type: Real-time Protection Disabled
+Reason: Manual
+User: brittany
+Computer: IYAMYRXV42
+Date: 2026-03-30 13:01:23,131 
+Event Type: Scan Completed
+Scan Type: Boot-time Scan
+Malware Found: 0
+User: joe
+Computer: LHVHJJFI14
+Date: 2026-03-30 13:01:23,232 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 2.3.2
+User: System
+Computer: TUSPXOED93
+Date: 2026-03-30 13:01:23,365 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: maria
+Computer: LOOODEXD43
+Date: 2026-03-30 13:01:23,491 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: lori
+Computer: VXXIVMVO37
+Date: 2026-03-30 13:01:23,618 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: hunter
+Computer: TTPQBGRI79
+Date: 2026-03-30 13:01:23,719 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 8.5.6
+User: System
+Computer: KUTQJXTL61
+Date: 2026-03-30 13:01:23,849 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: stephanie
+Computer: KIZYBIPT32
+Date: 2026-03-30 13:01:23,949 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 5.1.8
+User: System
+Computer: STHKAOBE32
+Date: 2026-03-30 13:01:24,076 
+Event Type: Scan Started
+Scan Type: Quick Scan
+User: matthew
+Computer: XKCYRFET22
+Date: 2026-03-30 13:01:24,211 
+Event Type: Real-time Protection Enabled
+User: daniel
+Computer: ARQXNNBX26
+Date: 2026-03-30 13:01:24,341 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: angel
+Computer: ARLJUKVS93
+Date: 2026-03-30 13:01:24,442 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 0.1.9
+User: System
+Computer: DPMSQKXG19
+Date: 2026-03-30 13:01:24,570 
+Event Type: Scan Started
+Scan Type: On-Demand Scan
+User: erica
+Computer: UFFHIXKC26
+Date: 2026-03-30 13:01:24,693 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 2
+User: james
+Computer: MXUKEZNH49
+Date: 2026-03-30 13:01:24,794 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 0.8.4
+User: System
+Computer: UHPCGEUQ58
+Date: 2026-03-30 13:01:24,895 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 6.0.4
+User: System
+Computer: NAUXZSTJ39
+Date: 2026-03-30 13:01:24,995 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 0.2.7
+User: System
+Computer: CDWQRZLR34
+Date: 2026-03-30 13:01:25,096 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 6.2.5
+User: System
+Computer: VVZOCWGZ13
+Date: 2026-03-30 13:01:25,197 
+Event Type: Update Applied
+Update Type: Engine Update
+Update Version: 8.9.4
+User: System
+Computer: SSQDGLNM74
+Date: 2026-03-30 13:01:25,327 
+Event Type: Scan Completed
+Scan Type: Real-time Scan
+Malware Found: 0
+User: paula
+Computer: URSEVNWL75
+Date: 2026-03-30 13:01:25,451 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: mark
+Computer: HMTTPKBE34
+Date: 2026-03-30 13:01:25,552 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 0.2.1
+User: System
+Computer: CTHFMUXL76
+Date: 2026-03-30 13:01:25,678 
+Event Type: Real-time Protection Disabled
+Reason: Automatic
+User: andrew
+Computer: QAWQOKKC14
+Date: 2026-03-30 13:01:25,779 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 1.8.8
+User: System
+Computer: VUZXPIGK38
+Date: 2026-03-30 13:01:25,880 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 2.8.9
+User: System
+Computer: SZSDTBYK35
+Date: 2026-03-30 13:01:26,004 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: laurie
+Computer: CKVIMPFP26
+Date: 2026-03-30 13:01:26,130 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: chad
+Computer: FQATSMVA85
+Date: 2026-03-30 13:01:55,077 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: angela
+Computer: EQDBIEGB23
+Date: 2026-03-30 13:01:55,206 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: denise
+Computer: WNXJGJYU89
+Date: 2026-03-30 13:01:55,333 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: kristen
+Computer: DCDRIDCT84
+Date: 2026-03-30 13:01:55,433 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 2.8.0
+User: System
+Computer: ZAARSVMQ77
+Date: 2026-03-30 13:01:55,558 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 4
+User: robin
+Computer: KJRYFDDO69
+Date: 2026-03-30 13:01:55,681 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: ralph
+Computer: EWJVUXMB47
+Date: 2026-03-30 13:01:55,782 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 4.1.6
+User: System
+Computer: DPBQIHGV94
+Date: 2026-03-30 13:01:55,907 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 0
+User: samantha
+Computer: ASIGOGKA63
+Date: 2026-03-30 13:01:56,008 
+Event Type: Update Applied
+Update Type: Definition Update
+Update Version: 7.5.7
+User: System
+Computer: SKWEDYYX71
+Date: 2026-03-30 13:01:56,133 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: samuel
+Computer: BSGQAUIM81
+Date: 2026-03-30 13:01:56,261 
+Event Type: Scan Completed
+Scan Type: On-Demand Scan
+Malware Found: 0
+User: ashley
+Computer: HOVZSWGV75
+Date: 2026-03-30 13:01:56,454 
+Event Type: Malware Detected
+File Name: leepicvirus.exe
+File Path: C:\Users\timothy\break\green\wish\foot\leepicvirus.exe
+File Hash: f033adca-de4c-484a-a1d3-a910914a8323
+Threat Name: ['Exploit.Win32.Example']
+Action Taken: Restored
+User: antonio
+Computer: RSXLFHYN93
+Date: 2026-03-30 13:01:56,555 
+Event Type: Update Applied
+Update Type: Software Update
+Update Version: 3.8.6
+User: System
+Computer: JYNWGOGB89
+Date: 2026-03-30 13:01:56,685 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: michael
+Computer: AKOYATGK37
+Date: 2026-03-30 13:01:56,872 
+Event Type: Malware Detected
+File Name: leepicvirus.exe
+File Path: C:\Users\jonathon\inside\ground\treat\senior\leepicvirus.exe
+File Hash: 76d10670-ad95-4f53-97a3-f1a107da4e9f
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Quarantine
+User: shelley
+Computer: JFSWBRGJ65
+Date: 2026-03-30 13:01:56,998 
+Event Type: Real-time Protection Enabled
+User: sarah
+Computer: RLJURGDM53
+Date: 2026-03-30 13:01:57,171 
+Event Type: Malware Detected
+File Name: password_stealer.exe
+File Path: C:\Users\cheryl\modern\network\policy\well\password_stealer.exe
+File Hash: 61a9776f-c796-4f82-af2f-c0857c9dcad1
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Block
+User: gregory
+Computer: WVZJTAQX23
+Date: 2026-03-30 13:01:57,272 
+Event Type: Update Applied
+Update Type: Threat Database Update
+Update Version: 3.2.6
+User: System
+Computer: PTVXFWDR34
+Date: 2026-03-30 13:01:57,399 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: miranda
+Computer: LYZWHEOI67
+Date: 2026-03-30 13:01:57,528 
+Event Type: Exception
+File/Process: wininit.exe
+Reason: Trusted Application
+User: julie
+Computer: MOJSVAXQ29
+Date: 2026-03-30 13:01:57,654 
+Event Type: Scan Completed
+Scan Type: Quick Scan
+Malware Found: 1
+User: erin
+Computer: BNPXVXEN91
+Date: 2026-03-30 13:01:57,754 
+Event Type: Update Applied
+Update Type: Configuration Update
+Update Version: 7.6.4
+User: System
+Computer: CPTWXASF85
+Date: 2026-03-30 13:01:57,882 
+Event Type: Scan Completed
+Scan Type: Boot-time Scan
+Malware Found: 0
+User: natalie
+Computer: FVYFHRRD61
+Date: 2026-03-30 13:01:58,009 
+Event Type: Scan Completed
+Scan Type: Custom Scan
+Malware Found: 0
+User: stephanie
+Computer: UMNWTWAR39
+Date: 2026-03-30 13:01:58,136 
+Event Type: Scan Completed
+Scan Type: Full Scan
+Malware Found: 0
+User: teresa
+Computer: TMNIZJAM45
+Date: 2026-03-30 13:01:58,339 
+Event Type: Malware Detected
+File Name: peace.bmp.exe
+File Path: C:\Users\johnathan\prepare\past\show\street\peace.bmp.exe
+File Hash: 9e715111-d6b1-47be-9a39-e5fbeeccdb35
+Threat Name: ['Worm.Win32.Example']
+Action Taken: Quarantine
+User: randy
+Computer: KKPTOSHZ55
+Date: 2026-03-30 13:01:58,466 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: courtney
+Computer: GSLHNMVA57
+Date: 2026-03-30 13:01:58,664 
+Event Type: Malware Detected
+File Name: a.tiff.exe
+File Path: C:\Users\lisa\statement\occur\create\available\a.tiff.exe
+File Hash: ed7e9c9a-3f0c-46c5-851f-f8ac2ff5472b
+Threat Name: ['Adware.Win32.Example']
+Action Taken: Block
+User: jeremy
+Computer: FOPJMOVS98
+Date: 2026-03-30 13:01:58,875 
+Event Type: Malware Detected
+File Name: explorer.exe
+File Path: C:\Users\patricia\thank\line\catch\future\explorer.exe
+File Hash: 99697ae0-f367-4acf-8bd3-3aada52cf4c3
+Threat Name: ['Rootkit.Win32.Example']
+Action Taken: Allow
+User: todd
+Computer: DLRVAVNS49
+Date: 2026-03-30 13:01:58,999 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: emily
+Computer: OYNIVQYC83
+Date: 2026-03-30 13:01:59,124 
+Event Type: Scan Started
+Scan Type: Full Scan
+User: matthew
+Computer: NKMHKDJT56
+Date: 2026-03-30 13:01:59,251 
+Event Type: Exception
+File/Process: crsss.exe
+Reason: Trusted Application
+User: john
+Computer: IETSKQXC98
+Date: 2026-03-30 13:01:59,438 
+Event Type: Malware Detected
+File Name: services.exe
+File Path: C:\Users\brian\natural\prepare\unit\generation\services.exe
+File Hash: c5608ad7-e9de-482a-b022-e269948dba7d
+Threat Name: ['Virus.Win32.Example']
+Action Taken: Deleted
+User: keith
+Computer: ZEULQZWO85

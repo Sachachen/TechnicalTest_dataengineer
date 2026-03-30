@@ -1,0 +1,19 @@
+services:
+  # Pipeline - telecharge IPsum
+  log-pipeline:
+    build:
+      context: .
+      dockerfile: pipeline/Dockerfile
+    container_name: log-pipeline
+    volumes:
+      - ./data:/app/data
+
+  # Security log generator - execute main.py
+  security-log-generator:
+    build:
+      context: ./Security-Log-Generator
+      dockerfile: Dockerfile
+    container_name: security-log-generator
+    volumes:
+      - ./Security-Log-Generator/logs:/app/logs
+      - ./Security-Log-Generator/config.yaml:/app/config.yaml:ro

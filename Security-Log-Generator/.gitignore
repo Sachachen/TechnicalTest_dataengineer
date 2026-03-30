@@ -1,0 +1,14 @@
+# ignore pycache
+__pycache__/
+
+# ignore tests directory
+tests/
+
+# ignore plotters directory
+plotters/
+
+# ignore docs directory (for now)
+docs/
+
+# ignore old
+old/
