@@ -1,173 +1,175 @@
-# CYNA — Technical Test (Data Engineer Internship)
+# 🛡️ CYNA — Real-Time Security Data Pipeline (Data Engineer Internship)
 
-## What I Built
+## 📋 Project Description
 
-This project is a real-time security data pipeline designed for a SOC use case. It ingests two data sources in parallel: security logs generated on the fly (IDS, web access, endpoint) and a threat intelligence feed from IPsum, which provides a list of malicious IPs with their confidence scores.
+A real-time security data pipeline designed for a SOC (Security Operations Center) use case. The project ingests two data sources in parallel — synthetic security logs (IDS, web access, endpoint) and a threat intelligence feed from IPsum — enriches each event with malicious IP data, stores everything in a local database, and exposes SOC-oriented insights through a live dashboard.
 
-The core idea: enrich each security event with threat intel data, store everything reliably, and expose useful insights through a live-refreshing dashboard.
+### Key Features
 
----
-
-## Scope Coverage
-
-All three requested deliverables are covered:
-
-1. Ingestion of both data sources
-2. Enrichment of security logs with threat intelligence
-3. Visualization dashboard for SOC analysis
-
-The entire solution runs on a single machine, with a lightweight footprint targeting 4 cores / 8 GB RAM.
+- 🔄 **Real-time ingestion** : Continuous tailing of IDS, access, and endpoint logs
+- 🧠 **Threat enrichment** : Each event is enriched with IPsum threat intel (malicious flag + confidence score)
+- 💾 **SQLite storage** : Lightweight local database in WAL mode for concurrent reads and writes
+- 📊 **Live dashboard** : Dash-based dashboard with 5-second auto-refresh
+- 🐳 **Containerized architecture** : Full Docker Compose deployment in one command
+- ♻️ **Scheduled feed refresh** : IPsum feed automatically refreshed at configurable intervals
 
 ---
 
-## Global Architecture
+## 🏗️ Technical Architecture
 
-The pipeline is structured as follows:
+### Technology Stack
 
-- `Security-Log-Generator/` — synthetic real-time log source
-- `pipeline/fetch_ipsum.py` — fetches and refreshes the IPsum feed
-- `pipeline/main.py` — tails logs, parses events, enriches with threat intel
-- `pipeline/data/security.db` — SQLite database in WAL mode
-- `dashboard/app.py` — Dash dashboard with 5-second auto-refresh
+| Component | Technology | Role |
+|-----------|------------|------|
+| **Log Generation** | Python (custom) | Synthetic real-time log source (IDS, access, endpoint) |
+| **Threat Feed** | IPsum + Python | Malicious IP list with confidence scores |
+| **Ingestion** | Python threads | One tailing thread per log type |
+| **Enrichment** | Python + LRU cache | IP lookup and event enrichment |
+| **Database** | SQLite (WAL mode) | Local storage with concurrent read support |
+| **Dashboard** | Dash / Plotly | Interactive SOC visualization |
+| **Containerization** | Docker Compose | Full orchestration in one command |
 
-Data flow:
-
-1. Download IPsum feed → load into `malicious_ips` table
-2. Continuous security log generation
-3. Near real-time log tailing
-4. Event parsing and enrichment (`is_malicious_*`, `threat_score_*`)
-5. Storage in `security_events`
-6. Metrics visualization and recent malicious event display
-
----
-
-## Repository Structure
+### Service Architecture
 
 ```
-TechnicalTest_dataengineer/
-├── docker-compose.yml
-├── README.md
-├── start.sh
-├── reset.sh
-├── dashboard/
-│   ├── app.py
-│   ├── Dockerfile
-│   └── requirements.txt
-├── pipeline/
-│   ├── db.py
-│   ├── enricher.py
-│   ├── fetch_ipsum.py
-│   ├── main.py
-│   ├── parsers.py
-│   ├── tailer.py
+┌──────────────────────────────────────────────────────────────┐
+│                        Docker Compose                         │
+├──────────────────┬───────────────────┬───────────────────────┤
+│  Security Log    │   Ipsum Fetcher   │      Pipeline         │
+│  Generator       │                   │                       │
+├──────────────────┼───────────────────┼───────────────────────┤
+│ - IDS logs       │ - Downloads IPsum │ - Tails log files     │
+│ - Access logs    │ - Loads malicious │ - Parses events       │
+│ - Endpoint logs  │   IPs into DB     │ - Enriches with       │
+│ - config.yaml    │ - Scheduled       │   threat intel        │
+│                  │   refresh         │ - Writes to SQLite    │
+└──────────────────┴───────────────────┴───────────────────────┘
+         │                  │                    │
+         └──────────────────┼────────────────────┘
+                            │
+                    ┌───────────────┐
+                    │   SQLite DB   │
+                    │  (WAL mode)   │
+                    └───────┬───────┘
+                            │
+                    ┌───────────────┐
+                    │   Dashboard   │
+                    │  (Dash/Plotly)│
+                    │  :8050        │
+                    └───────────────┘
+```
+
+### Data Flow
+
+```
+1. IPsum feed download  ──►  malicious_ips table
+2. Log generator        ──►  ids / access / endpoint log files
+3. Pipeline tailer      ──►  reads log files in near real-time
+4. Enricher             ──►  adds is_malicious_*, threat_score_* fields
+5. SQLite               ──►  stores enriched events in security_events
+6. Dashboard            ──►  queries DB every 5s and renders SOC views
+```
+
+### Repository Structure
+
+```
+TechnicalTest_dataengineer-main/
+├── docker-compose.yml              # Service orchestration
+├── start.sh                        # Local launch script
+├── reset.sh                        # Stop and clean generated state
+│
+├── pipeline/                       # Core ingestion and enrichment service
+│   ├── main.py                     # Entry point — starts tailing threads
+│   ├── tailer.py                   # Log file tailing logic
+│   ├── parsers.py                  # Per-type event parsers
+│   ├── enricher.py                 # Threat intel enrichment + LRU cache
+│   ├── fetch_ipsum.py              # IPsum feed downloader and scheduler
+│   ├── db.py                       # SQLite connection and schema
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └── data/
-│       └── ipsum.txt
-└── Security-Log-Generator/
+│       └── ipsum.txt               # Local IPsum snapshot
+│
+├── dashboard/                      # Dash visualization service
+│   ├── app.py                      # Dashboard layout and callbacks
+│   ├── Dockerfile
+│   └── requirements.txt
+│
+└── Security-Log-Generator/         # Synthetic log source
+    ├── main.py                     # Generator entry point
+    ├── config.yaml                 # Log type and volume configuration
+    └── generators/                 # Per-type log generators
 ```
 
 ---
 
-## Architecture Decisions
+## 🎯 Architecture Decisions
 
-This test was completed within one week. During the preparation phase, I identified solutions better suited for a production context: Kafka or Redpanda for ingestion, ClickHouse or PostgreSQL for storage, and Grafana for visualization. These tools would have made the pipeline more robust and scalable.
+This project was completed within one week. During the preparation phase, I identified solutions better suited for a production context: Kafka or Redpanda for ingestion, ClickHouse or PostgreSQL for storage, and Grafana for visualization. These tools would have made the pipeline more robust and scalable.
 
-However, being familiar with a tool's purpose is not the same as being able to deploy and configure it reliably under time constraints. Rather than spending the week working with an unfamiliar stack and delivering something unstable, I chose to work with the technologies covered in my coursework — SQLite, Python, Dash — to deliver something functional, readable, and technically sound. The alternatives are documented here to demonstrate awareness of the broader ecosystem and a clear understanding of the trade-offs involved.
+However, being familiar with a tool's purpose is not the same as being able to deploy and configure it reliably under time constraints. Rather than spending the week working with an unfamiliar stack and delivering something unstable, I chose to work with the technologies covered in my coursework. The alternatives are documented here to demonstrate awareness of the broader ecosystem and a clear understanding of the trade-offs involved.
+
+### Technology Choices
 
 **Why SQLite instead of PostgreSQL or ClickHouse?**
-SQLite is sufficient for a single-machine pipeline running on synthetic log volumes. It requires no infrastructure setup, and WAL mode enables concurrent reads without blocking writes. PostgreSQL would have been more appropriate at scale, but would have introduced infrastructure overhead (server management, connection pooling) that adds no value within this scope.
+
+| | SQLite (chosen) | PostgreSQL / ClickHouse |
+|--|--|--|
+| Setup | Zero infrastructure | Requires server management |
+| Concurrency | WAL mode handles concurrent reads | Better at scale |
+| Fit for scope | Single machine, synthetic volume | Production / distributed use |
 
 **Why no Kafka or message broker?**
-A broker would cleanly decouple log generation from processing — which is the right architecture for production. However, deploying and configuring Kafka reliably requires significant hands-on experience. I chose to accept this coupling and document it transparently rather than deliver an unstable implementation.
+A broker would cleanly decouple log generation from processing — the right architecture for production. Deploying and configuring Kafka reliably requires significant hands-on experience. Tight coupling is accepted here and documented transparently.
 
 **Why one thread per log type?**
-Each log type (`ids`, `access`, `endpoint`) has its own format and generation rate. A dedicated thread per source isolates the parsers, allows independent failure handling, and makes it straightforward to add a new source without affecting the others.
+Each log type (`ids`, `access`, `endpoint`) has its own format and generation rate. A dedicated thread per source isolates parsers, allows independent failure handling, and makes it straightforward to add a new source.
 
 **Why Dash for the dashboard?**
-Dash is the data visualization library covered in my coursework. Grafana or Superset would be more appropriate for a real SOC environment, but would have required additional configuration and database integration that was not feasible within the available time.
-
-**LRU cache on IP lookups and SQL indexes** are targeted performance optimizations to prevent dashboard slowdowns as log volume increases, without altering the core architecture.
-
-In summary: the priority was to deliver something functional, maintainable, and honest about its limitations, rather than over-engineer with tools that could not be mastered within the given timeframe.
+Dash is the data visualization library covered in my coursework. Grafana or Superset would be more appropriate for a real SOC environment but would have required additional configuration not feasible within the available time.
 
 ---
 
-## What Works
+## 🚀 Prerequisites and Environment Setup
 
-- Real-time ingestion from the log generator
-- Scheduled IPsum feed refresh
-- Event enrichment on source and destination IPs
-- Dashboard with 5-second auto-refresh and SOC-oriented views
+### Prerequisites
 
-Dashboard insights include:
-
-- Total event volume and malicious hit count
-- Unique malicious source IPs
-- IDS event count
-- Timeline of total vs malicious events
-- Log type distribution
-- Top malicious source and destination IPs
-- IDS severity and alert type breakdowns
-- HTTP status code distribution (access logs)
-- Latest malicious events table
+- **Docker** >= 20.10
+- **Docker Compose** >= 2.0
+- **Git**
+- **Available ports** : 8050 (Dashboard)
 
 ---
 
-## Challenges and Trade-offs
+### 1. Install Docker
 
-**SQLite lock contention under concurrent writes** — Mitigated with `busy_timeout`, WAL mode, batched commits, and retries. This is not a definitive solution and remains a bottleneck under high write load.
-
-**Startup race condition** — The `malicious_ips` table must be populated before the pipeline starts enriching events. Handled with a reload/retry mechanism on the IDS generator side.
-
-**Dash callback desynchronization after reload** — When graph IDs change, the browser cache can cause mismatches. Resolved with a hard refresh or application restart.
-
-**Intentionally simplified data model** — Readability and implementation speed were prioritized over full normalization. This is a deliberate trade-off for a test scope.
-
----
-
-## Known Limitations
-
-- SQLite is a single-node store with no distribution capability
-- No message broker — ingestion and processing are tightly coupled
-- No long-term retention or archival strategy
-- Parsers assume the log generator formats remain stable
-
----
-
-## Prerequisites and Environment Setup
-
-**Docker** and **Docker Compose** must be installed before running the project.
-
----
-
-### Installing Docker
-
-#### Windows
+#### 🪟 Windows
 
 1. Download **Docker Desktop** from [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
 2. Run the installer and follow the setup steps
 3. Docker Desktop may prompt you to enable **WSL 2** (Windows Subsystem for Linux) — accept and restart if required
-4. Verify the installation by opening a terminal (PowerShell or CMD):
+4. Make sure Docker Desktop is **running** (visible in the system tray) before using any `docker` command
+5. Verify the installation in a terminal (PowerShell or CMD):
 
 ```bash
 docker --version
 docker compose version
 ```
 
-#### macOS
+#### 🍎 macOS
 
-1. Download **Docker Desktop** from [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop) (select Apple Silicon or Intel depending on your Mac)
-2. Move Docker to the Applications folder
-3. Launch Docker Desktop from Applications
-4. Verify the installation in a terminal:
+1. Download **Docker Desktop** from [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)  
+   *(select Apple Silicon or Intel depending on your Mac)*
+2. Move Docker to the Applications folder and launch it
+3. Wait for Docker Desktop to fully start (whale icon in the menu bar)
+4. Verify in a terminal:
 
 ```bash
 docker --version
 docker compose version
 ```
 
-#### Linux (Ubuntu / Debian)
+#### 🐧 Linux (Ubuntu / Debian)
 
 ```bash
 # Update package list
@@ -189,7 +191,7 @@ docker compose version
 
 ---
 
-### Clone the Repository
+### 2. Clone the Repository
 
 ```bash
 git clone <repo-url>
@@ -198,49 +200,136 @@ cd TechnicalTest_dataengineer-main
 
 ---
 
-## Running the Project
+## ▶️ Running the Project
 
 ### Option A — Docker (recommended)
 
-From `TechnicalTest_dataengineer-main/`:
-
 ```bash
+# Build and start all services
 docker compose up --build
 ```
 
-The dashboard is available at `http://localhost:8050`.
-
-To stop:
+The dashboard is available at **http://localhost:8050**
 
 ```bash
+# Stop all services
 docker compose down
+
+# Full reset (removes containers, networks, and volumes)
+docker compose down --rmi all --volumes --remove-orphans
 ```
 
-Full reset (including volumes):
-
-```bash
-docker compose down -v
-```
+> ⚠️ **Windows users** : Make sure Docker Desktop is fully started before running any `docker compose` command. If you see an error mentioning `dockerDesktopLinuxEngine`, Docker is not running yet.
 
 ### Option B — Local Scripts
 
-From `TechnicalTest_dataengineer-main/`:
-
 ```bash
+# Start all services locally
 ./start.sh
-```
 
-This starts the IPsum fetcher scheduler, log generators, enrichment pipeline, and dashboard.
-
-To stop and clean generated state:
-
-```bash
+# Stop and clean generated state
 ./reset.sh
 ```
 
 ---
 
-## Configuration
+## 🛠️ Useful Commands
+
+### Container Management
+
+```bash
+# Start all services in the background
+docker compose up -d --build
+
+# View real-time logs for all services
+docker compose logs -f
+
+# View logs for a specific service
+docker compose logs -f pipeline
+docker compose logs -f dashboard --tail 50
+
+# Restart a specific service
+docker compose restart pipeline
+docker compose restart dashboard
+
+# Rebuild without cache
+docker compose build --no-cache
+```
+
+### Access Containers
+
+```bash
+# Shell into the pipeline container
+docker compose exec pipeline /bin/bash
+
+# Shell into the dashboard container
+docker compose exec dashboard /bin/bash
+```
+
+### Check Container Status
+
+```bash
+docker compose ps
+```
+
+---
+
+## 🔍 Troubleshooting
+
+### Docker is not starting (Windows)
+
+```
+open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified
+```
+
+Docker Desktop is not running. Open it from the Start menu and wait for it to fully start before retrying.
+
+### Container name conflict
+
+```
+Error: Conflict. The container name "/security-log-generator" is already in use
+```
+
+```bash
+# Remove orphaned containers from the project only
+docker compose down --remove-orphans
+
+# Or force-remove the specific container
+docker rm -f security-log-generator
+```
+
+### Full Docker reset (project only)
+
+```bash
+docker compose down --rmi all --volumes --remove-orphans
+```
+
+### Dashboard shows no data
+
+The IPsum feed or pipeline may not have started yet. Check the logs:
+
+```bash
+docker compose logs ipsum-fetcher
+docker compose logs pipeline
+```
+
+Wait a few seconds after startup — the `malicious_ips` table needs to be populated before enrichment begins.
+
+### Port 8050 already in use
+
+```bash
+# Windows
+netstat -ano | findstr :8050
+
+# Linux / macOS
+lsof -i :8050
+```
+
+Kill the process using the port, then restart with `docker compose up`.
+
+---
+
+## ⚙️ Configuration
 
 ### Log Generator
 
@@ -267,22 +356,67 @@ File: `pipeline/fetch_ipsum.py`
 
 ---
 
-## Main Tables
+## 📊 Dashboard Insights
 
-| Table | Description |
-|-------|-------------|
-| `malicious_ips` | IPsum snapshot — IP address, confidence score, last update timestamp |
-| `security_events` | Unified enriched event table (ids / access / endpoint) |
+| Metric | Description |
+|--------|-------------|
+| Total events | Overall ingested event count |
+| Malicious hits | Events matched against threat intel |
+| Unique malicious IPs | Distinct source IPs flagged as malicious |
+| IDS event count | Volume of intrusion detection events |
+| Timeline | Total vs malicious events over time |
+| Log type distribution | Breakdown by ids / access / endpoint |
+| Top malicious IPs | Most frequent malicious source and destination IPs |
+| IDS severity breakdown | Alert severity distribution |
+| HTTP status distribution | Response code breakdown from access logs |
+| Latest malicious events | Real-time table of recent flagged events |
 
 ---
 
-## What Could Be Improved Next
+## 🗄️ Database Schema
+
+### `malicious_ips`
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `ip` | TEXT | IP address |
+| `score` | INTEGER | IPsum confidence score |
+| `updated_at` | TIMESTAMP | Last feed update timestamp |
+
+### `security_events`
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `timestamp` | TIMESTAMP | Event timestamp |
+| `log_type` | TEXT | `ids`, `access`, or `endpoint` |
+| `src_ip` | TEXT | Source IP address |
+| `dst_ip` | TEXT | Destination IP address |
+| `severity` | TEXT | Event severity (IDS only) |
+| `is_malicious_src` | BOOLEAN | Source IP flagged by IPsum |
+| `is_malicious_dst` | BOOLEAN | Destination IP flagged by IPsum |
+| `threat_score_src` | INTEGER | Source IP confidence score |
+| `threat_score_dst` | INTEGER | Destination IP confidence score |
+
+---
+
+## ⚠️ Known Limitations
+
+- SQLite is a single-node store with no distribution capability
+- No message broker — ingestion and processing are tightly coupled
+- No long-term retention or archival strategy
+- Parsers assume the log generator formats remain stable
+- SQLite lock contention can occur under sustained high write load
+
+---
+
+## 🔮 What Could Be Improved Next
 
 1. Migrate storage to **PostgreSQL** or **ClickHouse** for larger scale
 2. Introduce a **message broker** (Kafka or equivalent) to decouple ingestion from processing
-3. Add **observability instrumentation**: ingestion lag, events per second, callback latency
+3. Add **observability instrumentation** : ingestion lag, events per second, callback latency
 4. Implement **alerting rules** with notification channels
 5. Expand **test coverage** for parser robustness and regression scenarios
+6. Replace Dash with **Grafana** for a production-grade SOC dashboard
 
 ---
 
