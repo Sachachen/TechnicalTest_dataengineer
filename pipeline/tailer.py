@@ -12,7 +12,8 @@ from db import get_connection
 # Commit after this many inserts OR after this many seconds, whichever comes first.
 BATCH_SIZE    = 100
 BATCH_TIMEOUT = 2.0  # seconds
-MAX_DB_RETRIES = 5
+# Give startup enough time for fetch_ipsum to create malicious_ips.
+MAX_DB_RETRIES = 40
 RETRY_SLEEP = 0.05
 
 
@@ -28,7 +29,14 @@ def _run_with_retry(action_name: str, fn) -> bool:
             return True
         except sqlite3.OperationalError as exc:
             msg = str(exc).lower()
-            if "locked" not in msg and "busy" not in msg:
+            # At startup the feed loader may not have created malicious_ips yet.
+            # Treat this as transient and keep retrying instead of crashing.
+            is_transient = (
+                "locked" in msg
+                or "busy" in msg
+                or "no such table: malicious_ips" in msg
+            )
+            if not is_transient:
                 raise
             if attempt == MAX_DB_RETRIES:
                 print(f"[tailer] SQLite {action_name} failed after {MAX_DB_RETRIES} retries: {exc}")
