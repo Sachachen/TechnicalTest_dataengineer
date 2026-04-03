@@ -191,7 +191,22 @@ docker compose version
 
 ---
 
-### 2. Clone the Repository
+### 2. Configuration de l'Environnement
+
+```bash
+# Créer un environnement virtuel Python
+python -m venv venv
+
+# Activer l'environnement (Windows)
+venv\Scripts\activate
+
+# Activer l'environnement (Linux/Mac)
+source venv/bin/activate
+```
+
+---
+
+### 3. Clone the Repository
 
 ```bash
 git clone <repo-url>
