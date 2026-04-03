@@ -1,19 +1,57 @@
 services:
-  # Pipeline - telecharge IPsum
-  log-pipeline:
+  ipsum-fetcher:
     build:
-      context: .
-      dockerfile: pipeline/Dockerfile
-    container_name: log-pipeline
+      context: ./pipeline
+      dockerfile: Dockerfile
+    container_name: ipsum-fetcher
+    command:
+      - python
+      - fetch_ipsum.py
+      - --db
+      - /pipeline/data/security.db
+      - --output
+      - /pipeline/data/ipsum.txt
+      - --daemon
+      - --interval-hours
+      - "24"
     volumes:
-      - ./data:/app/data
+      - ./pipeline/data:/pipeline/data
+    restart: unless-stopped
 
-  # Security log generator - execute main.py
   security-log-generator:
     build:
       context: ./Security-Log-Generator
       dockerfile: Dockerfile
     container_name: security-log-generator
+    command: sh -c "mkdir -p /app/logs && python main.py"
     volumes:
       - ./Security-Log-Generator/logs:/app/logs
       - ./Security-Log-Generator/config.yaml:/app/config.yaml:ro
+      - ./pipeline/data:/pipeline/data
+    restart: unless-stopped
+
+  pipeline:
+    build:
+      context: ./pipeline
+      dockerfile: Dockerfile
+    container_name: log-pipeline
+    depends_on:
+      - ipsum-fetcher
+      - security-log-generator
+    volumes:
+      - ./pipeline/data:/pipeline/data
+      - ./Security-Log-Generator/logs:/Security-Log-Generator/logs
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    container_name: soc-dashboard
+    depends_on:
+      - pipeline
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./pipeline/data:/pipeline/data
+    restart: unless-stopped

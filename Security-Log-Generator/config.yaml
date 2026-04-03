@@ -5,8 +5,8 @@ config:
   log_type: all
   event_distribution: linear
   # Linear Distribution Parameters (only applies if linear distribution)
-  no_events: 100
-  write_time: 0.1
+  no_events: 2000
+  write_time: 0.01
   # Wave Distribution Parameters (only applies if wave distribution)
   frequency: 'n/a'
   amplitude: 'n/a'

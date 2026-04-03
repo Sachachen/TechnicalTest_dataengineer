@@ -1,7 +1,13 @@
 FROM python:3.12-slim
 
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
 WORKDIR /app
 
-COPY pipeline/fetch_ipsum.py /app/fetch_ipsum.py
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
-CMD ["python", "fetch_ipsum.py", "-o", "/app/data/ipsum.txt"]
+COPY . /app
+
+CMD ["python", "main.py"]

@@ -1,6 +1,25 @@
+# Python
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv/
+.venv/
+env/
+
+# Local environment files
+.env
 .env.local
+
+# OS/editor noise
 .DS_Store
+Thumbs.db
+
+# Runtime data and local databases
+pipeline/data/security.db
+pipeline/data/security.db-shm
+pipeline/data/security.db-wal
+
+# Generated logs
+Security-Log-Generator/logs/*.log
